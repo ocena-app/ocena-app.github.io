@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on ocena Site</title>
+    <title>Blog on 오세나 | ocena 팀 블로그</title>
     <link>http://ocena-app.github.io/categories/blog/</link>
-    <description>Recent content in Blog on ocena Site</description>
+    <description>Recent content in Blog on 오세나 | ocena 팀 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>ko-KR</language>
     <lastBuildDate>Sat, 18 Jun 2022 11:10:36 +0800</lastBuildDate><atom:link href="http://ocena-app.github.io/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Post 1</title>
