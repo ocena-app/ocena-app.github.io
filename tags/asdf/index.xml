@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>asdf on 오세나 | ocena 팀 블로그</title>
+    <link>http://ocena-app.github.io/tags/asdf/</link>
+    <description>Recent content in asdf on 오세나 | ocena 팀 블로그</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sat, 11 Feb 2023 03:22:48 +0900</lastBuildDate><atom:link href="http://ocena-app.github.io/tags/asdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tester Post</title>
+      <link>http://ocena-app.github.io/posts/tester-post/</link>
+      <pubDate>Sat, 11 Feb 2023 03:22:48 +0900</pubDate>
+      
+      <guid>http://ocena-app.github.io/posts/tester-post/</guid>
+      <description>This is a test post blah blah</description>
+    </item>
+    
+  </channel>
+</rss>
