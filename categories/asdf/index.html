@@ -100,21 +100,13 @@
       :class="{'flex': open, 'hidden': !open}"
       class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"
     >
-      <a
-        class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
-        href="/about/"
-        >About</a
-      >
+      
       <a
         class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
         href="https://ocena.app/"
         >ocena</a
       >
-      <a
-        class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
-        href="/prose/"
-        >Prose</a
-      >
+      
       <div @click.away="open = false" class="relative" x-data="{ open: false }">
         <button
           @click="open = !open"

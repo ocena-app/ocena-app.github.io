@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://ocena-app.github.io/categories/asdf/</loc>
-    <lastmod>2023-02-11T03:22:48+09:00</lastmod>
-  </url><url>
     <loc>http://ocena-app.github.io/categories/</loc>
     <lastmod>2023-02-11T03:22:48+09:00</lastmod>
   </url><url>
@@ -27,6 +24,9 @@
     <lastmod>2023-02-11T03:22:48+09:00</lastmod>
   </url><url>
     <loc>http://ocena-app.github.io/posts/tester-post-that-has-a-very-long-name/</loc>
+    <lastmod>2023-02-11T03:22:48+09:00</lastmod>
+  </url><url>
+    <loc>http://ocena-app.github.io/categories/%ED%94%84%EB%A1%9C%EB%8D%95%ED%8A%B8/</loc>
     <lastmod>2023-02-11T03:22:48+09:00</lastmod>
   </url><url>
     <loc>http://ocena-app.github.io/tags/blog/</loc>
