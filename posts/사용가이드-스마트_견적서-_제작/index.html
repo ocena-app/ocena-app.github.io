@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name"> 오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법 | 오세나 | ocena 팀 블로그 
+</title>
+<meta name="description" content="오세나 스마트 견적서와 PDF 견적서를 만드는 방법, 견적서 편집 기능 사용에 대해 알아보세요." />
+<meta property="og:title" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법 | 오세나 | ocena 팀 블로그" />
+<meta name="twitter:title" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법 | 오세나 | ocena 팀 블로그" />
+<meta itemprop="name" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법 | 오세나 | ocena 팀 블로그" />
+<meta name="application-name" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법 | 오세나 | ocena 팀 블로그" />
+<meta property="og:site_name" content="오세나 블로그" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="오세나 | ocena 팀 블로그" />
+<meta property="og:description"
+      content="오세나 스마트 견적서와 PDF 견적서를 만드는 방법, 견적서 편집 기능 사용에 대해 알아보세요." />
+<meta property="og:site_name" content="오세나 | ocena 팀 블로그" />
+<meta property="og:url" content="http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C-_%EC%A0%9C%EC%9E%91/" />
+<meta property="og:locale" content="ko">
+
+<meta property="og:image" content="/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="http://ocena-app.github.io/images/tailbliss-cover.png" />
+
+<meta property="og:type" content="website" />
+<script>
+    
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+
+<link rel="stylesheet" href="/css/style.min.2a1eb6833117f2d23721f6b298692eb8738f106dcaebe20e359fe5f8a5ba767b.css" integrity="sha256-Kh62gzEX8tI3IfaymGkuuHOPEG3K6+IONZ/l+KW6dns=" />
+
+</head>
+
+<body class="bg-zinc-100 dark:bg-gray-800">
+    <div
+  class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10"
+>
+  <div
+    x-data="{ open: false }"
+    class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+  >
+    <div class="flex flex-row items-center justify-between p-4">
+      <a
+        href="/"
+        class="flex text-gray-100 transition duration-1000 ease-in-out group"
+      >
+        <img
+          src="/ocena-logo-white.png"
+          class="transition-opacity h-9 group-hover:opacity-50 group-focus:opacity-70"
+          alt="오세나 | ocena 팀 블로그 Logo"
+        />
+        <div
+          class="mt-1 ml-3 text-xl font-base tracking-tight text-gray-100 transition-colors group-hover:text-gray-400/60"
+        >
+          
+          Blog
+        </div>
+      </a>
+      <button
+        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
+        @click="open = !open"
+        role="navigation"
+        aria-expanded="false"
+        aria-label="Main"
+        aria-controls="menuItems"
+      >
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path
+            x-show="!open"
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+          <path
+            x-show="open"
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <nav
+      :class="{'flex': open, 'hidden': !open}"
+      class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"
+    >
+      
+
+      <a
+        class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        href="/posts/"
+        >아티클</a
+      >
+      
+      <div @click.away="open = false" class="relative" x-data="{ open: false }">
+        <button
+          @click="open = !open"
+          class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        >
+          <span>카테고리</span>
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            :class="{'rotate-180': open, 'rotate-0': !open}"
+            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-100"
+          x-transition:enter-start="transform opacity-0 scale-95"
+          x-transition:enter-end="transform opacity-100 scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="transform opacity-100 scale-100"
+          x-transition:leave-end="transform opacity-0 scale-95"
+          class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+        >
+          <div class="px-2 py-2 text-primary bg-white rounded-md shadow">
+            <a
+              class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary/90 focus:bg-primary/70 focus:outline-none focus:shadow-outline"
+              href="/categories/프로덕트/"
+              >프로덕트</a
+            >
+            
+            
+          </div>
+        </div>
+      </div>
+      <a
+        class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        href="https://ocena.app/contact"
+        target=”_blank”
+      >
+        문의하기
+      </a>
+      <a
+      class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+      href="https://ocena.app/"
+      target=”_blank”
+      >오세나 사용하기</a
+      >
+
+      <button
+        id="theme-toggle"
+        type="button"
+        class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden"
+      >
+        <svg
+          id="theme-toggle-dark-icon"
+          class="hidden w-5 h-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+          ></path>
+        </svg>
+        <svg
+          id="theme-toggle-light-icon"
+          class="hidden w-5 h-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          aria-label="Dark or Light Mode"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</div>
+
+    
+<article>
+  <header class="flex flex-col items-center justify-start pt-16 mb-4">
+    <div class="text-white w-full max-w-4xl px-4 pb-2 ">
+      <div class="text-lg font-medium md:text-xl text-primary/90 dark:text-gray-400">프로덕트</div>
+    </div>
+      <h1 class="pb-4 max-w-4xl w-full px-4 text-3xl sm:text-4xl leading-normal sm:leading-snug font-bold text-gray-800 dark:text-white capitalize">
+        오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법
+      </h1>
+      <div class="flex text-gray-500 dark:text-white w-full max-w-4xl px-4 md:text-lg">
+        <div class="mb-1  ">이용우</div>
+        &nbsp;&nbsp; <span class="text-gray-300">|</span> &nbsp;&nbsp;
+        <time class="" datetime="2020-02-12">2023-02-13</time>
+      </div>
+  </header>
+  <div class="max-w-4xl mx-auto mt-8 mb-2">
+    <div class="px-6">
+      
+      
+      
+      
+      
+      
+      <img src="/../assets/images/featured/%EC%98%A4%EC%84%B8%EB%82%98_%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EC%82%AC%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_hueaafe286e522a448d5bf245a8b476d7b_122659_1500x0_resize_q80_h2_box_3.webp" srcset=", /../assets/images/featured/%EC%98%A4%EC%84%B8%EB%82%98_%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EC%82%AC%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_hueaafe286e522a448d5bf245a8b476d7b_122659_400x0_resize_q80_h2_box_3.webp 400w, /../assets/images/featured/%EC%98%A4%EC%84%B8%EB%82%98_%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EC%82%AC%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_hueaafe286e522a448d5bf245a8b476d7b_122659_550x0_resize_q80_h2_box_3.webp 550w, /../assets/images/featured/%EC%98%A4%EC%84%B8%EB%82%98_%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EC%82%AC%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_hueaafe286e522a448d5bf245a8b476d7b_122659_900x0_resize_q80_h2_box_3.webp 768w, /../assets/images/featured/%EC%98%A4%EC%84%B8%EB%82%98_%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EC%82%AC%EC%9A%A9_%EA%B0%80%EC%9D%B4%EB%93%9C_hueaafe286e522a448d5bf245a8b476d7b_122659_1500x0_resize_q80_h2_box_3.webp 1100w"
+           class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+           width="100%" alt="" />
+      
+      
+    </div>
+  </div>
+  
+  
+  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
+    <h2 id="오세나-스마트-견적서란">오세나 스마트 견적서란?</h2>
+<p>견적서는 영업 과정에 필수적이지만 영업 담당자와 고객 모두에게 번거로워 영업 과정의 전개를 늦추는 요소인데요. 오세나는 모두가 견적서 보다는 거래 성사에 집중할 수 있도록 견적서를 제작, 관리, 공유하는 과정을 최적화할 수 있는 견적서 소프트웨어; 오세나 스마트 견적서를 제공하고 있습니다.</p>
+<h3 id="오세나-스마트-견적서를-통해">오세나 스마트 견적서를 통해</h3>
+<ul>
+<li>전문적인 템플릿을 기반으로 커스텀 브랜딩이 된 견적서를 빠르게 만들 수 있습니다.</li>
+<li>견적서를 링크로 공유해 고객이 가장 쉽게 열어볼 수 있는 방식으로 견적서를 전달하세요.</li>
+<li>고객은 공유된 견적서의 특정 부분을 선택해 댓글을 달거나 버튼 클릭 하나로 견적 내역을 수락할 수 있습니다.</li>
+<li>웹 대시보드를 통해 모든 견적서를 한곳에서 편리하게 관리할 수 있습니다.</li>
+</ul>
+<p>본 아티클을 통해 오세나에서 스마트 견적서와 PDF 견적서를 만드는 방법에 대해 알아보세요.</p>
+<p>오세나 스마트 견적서는 별도의 소프트웨어 설치 없이 <a href="https://ocena.app/">오세나 웹사이트</a>에서 <strong>무료로 사용</strong>이 가능합니다.</p>
+<h2 id="시작하기">시작하기</h2>
+<p>오세나 홈페이지에 있는 파란색</p>
+<ul>
+<li><strong>로그인 없이 견적서 만들기</strong></li>
+<li><strong>견적서 만들기</strong></li>
+</ul>
+<p>버튼을 클릭하거나, <a href="https://ocena.app/pdf/">링크</a>로 이동해 스마트 견적서 편집 페이지로 이동할 수 있습니다.</p>
+<h2 id="스마트-견적서-편집-페이지">스마트 견적서 편집 페이지</h2>
+<p>스마트 견적서 편집 페이지는 4개 단계로 이루어져 있습니다. 각 단계 페이지의 입력창을 채우면 견적서가 자연습럽게 완성됩니다.</p>
+<ol>
+<li>기업정보</li>
+<li>고객정보</li>
+<li>견적 내역</li>
+<li>견적 정보</li>
+</ol>
+<p>위 4개 단계를 완료하면 ‘견적서 완성’ 페이지에서 스마트 견적서를 다음 방법으로 사용할 수 있습니다.</p>
+<ul>
+<li>‘내 견적서’로 저장 후 온라인 공유</li>
+<li>PDF 다운로드</li>
+</ul>
+<h2 id="1-기업-정보">1. 기업 정보</h2>
+<p>‘기업 정보’ 페이지에서는 견적서를 제작하는 사용자와 회사에 관한 정보를 입력할 수 있습니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4.png" alt="견적서 편집 페이지_기업 정보"></p>
+<p>기업정보 페이지 ‘기업로고’ 섹션에서는 견적서에 커스텀 브랜딩을 적용할 수 있습니다. 회색 영역을 클릭해 견적서 오른쪽 상단에 삽입할 이미지를 선택할 수 있습니다. ‘로고 삭제’ 버튼을 클릭해 이미지를 삭제할 경우 이미지가 있던 자리는 비워집니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4_%EB%A1%9C%EA%B3%A0%EC%84%A4%EC%A0%95.png" alt="견적서 편집 페이지_기업 정보_로고 설정"></p>
+<h2 id="2-고객-정보">2. 고객 정보</h2>
+<p>‘고객 정보’ 페이지에서는 견적서를 받는 고객사에 대한 정보를 입력할 수 있습니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B3%A0%EA%B0%9D%EC%A0%95%EB%B3%B4.png" alt="견적서 편집 페이지_고객 정보"></p>
+<h2 id="3-견적-내역">3. 견적 내역</h2>
+<p>‘견적 내역’ 페이지에서는 견적 내역을 입력할 수 있습니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B2%AC%EC%A0%81%EB%82%B4%EC%97%AD.png" alt="견적서 편집 페이지_견적 내역"></p>
+<p>페이지에 있는 입력창을 완성하고 ‘견적 항목 추가하기’ 버튼을 클릭하면 한개의 견적 항목이 만들어지며 입력창 아래 회색 ‘견적 항목’ 영역에서 추가한 견적 항목을 확인해 보실 수 있습니다. 추가된 견적 항목들은 견적 항목 카드의 왼편 화살표를 이용해 위아래로 움직이거나, 카드 오른쪽 버튼을 사용해 ‘수정’ 혹은 ‘삭제’ 할 수 있습니다.</p>
+<h3 id="견적-금액-계산">견적 금액 계산</h3>
+<p>견적 항목을 추가하면 견적서 하단에 자동으로 견적 금액(총 공급가액, 세액, 합계 금액)이 계산됩니다. 견적 항목을 추가할 때마다 견적 금액은 자동으로 업데이트 됩니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B2%AC%EC%A0%81%EB%82%B4%EC%97%AD_%EA%B2%AC%EC%A0%81%EA%B8%88%EC%95%A1%EA%B3%84%EC%82%B0.png" alt="견적서 편집 페이지_견적 내역_견적 금액 계산"></p>
+<h2 id="4-견적-정보">4. 견적 정보</h2>
+<p>‘견적 정보’ 페이지에서는 견적서에 대한 정보를 입력할 수 있습니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B2%AC%EC%A0%81%EC%A0%95%EB%B3%B4.png" alt="견적서 편집 페이지_견적 정보"></p>
+<h2 id="견적서-완성">견적서 완성</h2>
+<p>스마트 견적서 편집 페이지의 4개 단계를 완성하면 ‘견적서 완성’ 페이지에 도달하게 됩니다. 완성된 스마트 견적서는 다음과 같이 사용할 수 있습니다.</p>
+<h3 id="내-견적서로-저장">내 견적서로 저장</h3>
+<p>검정색 ‘내 견적서로 저장’ 버튼을 클릭하면 견적서는 웹 대시보드의 ‘내 견적서’ 페이지에 저장되며 ‘내 견적서’ 페이지로 이동됩니다. 혹은 로그인 상태에 따라 ‘로그인하고 견적서 저장하기’ 버튼을 클릭하면 로그인 페이지로 이동되며, 로그인 후 자동으로 완성 페이지로 돌아와 견적서를 저장할 수 있습니다.</p>
+<h3 id="수정하기">수정하기</h3>
+<p>스마트 견적서를 수정하고 싶다면 ‘수정하기 버튼’을 클릭해 편집 페이지로 돌아가 견적 내용을 수정할 수 있습니다.</p>
+<h3 id="pdf-다운로드-pdf-견적서-생성하기">PDF 다운로드 (PDF 견적서 생성하기)</h3>
+<p>파란색 ‘PDF 다운로드’ 버튼을 클릭하면 스마트 견적서가 A4 비율의 PDF 견적서 문서로 변환되어 다운로드 됩니다.</p>
+<p><img src="/%EA%B2%AC%EC%A0%81%EC%84%9C%ED%8E%B8%EC%A7%91%ED%8E%98%EC%9D%B4%EC%A7%80_%EA%B2%AC%EC%A0%81%EC%84%9C%EC%99%84%EC%84%B1.png" alt="견적서 편집 페이지_견적서 완성"></p>
+<h2 id="견적서-공유하기">견적서 공유하기</h2>
+<p>견적서 완성 페이지에서 ‘내 견적서로 저장’ 버튼을 누르면 대시보드의 ‘내 견적서’ 페이지로 이동합니다. ‘내 견적서’ 목록에서 공유하고자 하는 견적서를 클릭하면 견적서를 공유할 수 있습니다.</p>
+<p>견적서 공유에 관한 더 구체적인 정보는 아래 링크에서 확인하세요</p>
+<ul>
+<li>스마트 견적서 공유하기</li>
+</ul>
+<h2 id="스마트-견적서-사용하기">스마트 견적서 사용하기</h2>
+<p>오세나 스마트 견적서는 <a href="https://ocena.app/">오세나 웹사이트</a>에서 무료로 사용이 가능합니다.</p>
+<ul>
+<li><a href="https://ocena.app/">스마트 견적서 만들기</a></li>
+</ul>
+
+  </div>
+  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto ">
+    <div class="text-xl text-primary font-bold mb-4">Tags</div>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C/">사용가이드</a>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EC%98%A4%EC%84%B8%EB%82%98/">오세나</a>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EA%B2%AC%EC%A0%81%EC%84%9C/">견적서</a>
+    
+  </div>
+</article>
+
+    
+
+<script src="/js/alpine.js" defer></script>
+
+<script src="/js/darkmode.js" defer></script>
+<footer class="bg-gray-900">
+  <div
+    class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
+  >
+  <a
+        href="/"
+        class="flex justify-center mb-6 text-gray-100 transition duration-1000 ease-in-out group"
+      >
+        <img
+          src="/ocena-logo-white.png"
+          class="transition-opacity h-9 group-hover:opacity-50 group-focus:opacity-70"
+          alt="오세나 | ocena 팀 블로그 Logo"
+        />
+        <div
+          class="mt-1 ml-3 text-xl font-base tracking-tight text-gray-100 transition-colors group-hover:text-gray-400/60"
+        >
+          
+          Blog
+        </div>
+      </a>
+    <nav class="flex flex-wrap justify-center " aria-label="Footer">
+      <div class="py-2 sm:p-2">
+        <a
+          href="https://ocena.app/"
+          target=”_blank”
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >오세나</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a
+          href="/posts/"
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >아티클</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a
+          href="https://ocena.app/contact/"
+          target=”_blank”
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >문의하기</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a href="https://www.linkedin.com/company/ocena-app" target=”_blank” class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >링크드인</a
+        >
+      </div>
+    </nav>
+    
+    <p class="mt-8 text-sm text-center text-gray-400">
+      &copy; 2023 오세나 | ocena 팀 블로그. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+</body>
+
+</html>

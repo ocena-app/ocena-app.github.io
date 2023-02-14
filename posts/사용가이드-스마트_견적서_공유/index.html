@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title itemprop="name"> 오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유 | 오세나 | ocena 팀 블로그 
+</title>
+<meta name="description" content="오세나 스마트 견적서를 공유하는 방법에 대해 알아보세요." />
+<meta property="og:title" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유 | 오세나 | ocena 팀 블로그" />
+<meta name="twitter:title" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유 | 오세나 | ocena 팀 블로그" />
+<meta itemprop="name" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유 | 오세나 | ocena 팀 블로그" />
+<meta name="application-name" content="오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유 | 오세나 | ocena 팀 블로그" />
+<meta property="og:site_name" content="오세나 블로그" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="오세나 | ocena 팀 블로그" />
+<meta property="og:description"
+      content="오세나 스마트 견적서를 공유하는 방법에 대해 알아보세요." />
+<meta property="og:site_name" content="오세나 | ocena 팀 블로그" />
+<meta property="og:url" content="http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8_%EA%B2%AC%EC%A0%81%EC%84%9C_%EA%B3%B5%EC%9C%A0/" />
+<meta property="og:locale" content="ko">
+
+<meta property="og:image" content="/images/tailbliss-cover.png" />
+<meta property="og:image:secure_url" content="http://ocena-app.github.io/images/tailbliss-cover.png" />
+
+<meta property="og:type" content="website" />
+<script>
+    
+    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+    } else {
+        document.documentElement.classList.remove('dark')
+    }
+</script>
+
+
+
+<link rel="stylesheet" href="/css/style.min.2a1eb6833117f2d23721f6b298692eb8738f106dcaebe20e359fe5f8a5ba767b.css" integrity="sha256-Kh62gzEX8tI3IfaymGkuuHOPEG3K6+IONZ/l+KW6dns=" />
+
+</head>
+
+<body class="bg-zinc-100 dark:bg-gray-800">
+    <div
+  class="top-0 z-50 w-full text-gray-200 bg-gray-900 border-2 border-gray-900 md:sticky border-b-stone-200/10"
+>
+  <div
+    x-data="{ open: false }"
+    class="flex flex-col max-w-full px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+  >
+    <div class="flex flex-row items-center justify-between p-4">
+      <a
+        href="/"
+        class="flex text-gray-100 transition duration-1000 ease-in-out group"
+      >
+        <img
+          src="/ocena-logo-white.png"
+          class="transition-opacity h-9 group-hover:opacity-50 group-focus:opacity-70"
+          alt="오세나 | ocena 팀 블로그 Logo"
+        />
+        <div
+          class="mt-1 ml-3 text-xl font-base tracking-tight text-gray-100 transition-colors group-hover:text-gray-400/60"
+        >
+          
+          Blog
+        </div>
+      </a>
+      <button
+        class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
+        @click="open = !open"
+        role="navigation"
+        aria-expanded="false"
+        aria-label="Main"
+        aria-controls="menuItems"
+      >
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path
+            x-show="!open"
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          ></path>
+          <path
+            x-show="open"
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <nav
+      :class="{'flex': open, 'hidden': !open}"
+      class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row"
+    >
+      
+
+      <a
+        class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        href="/posts/"
+        >아티클</a
+      >
+      
+      <div @click.away="open = false" class="relative" x-data="{ open: false }">
+        <button
+          @click="open = !open"
+          class="flex flex-row items-center w-full px-4 py-2 mt-2 text-sm font-semibold text-left bg-transparent rounded-lg md:w-auto md:inline md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        >
+          <span>카테고리</span>
+          <svg
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            :class="{'rotate-180': open, 'rotate-0': !open}"
+            class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-100"
+          x-transition:enter-start="transform opacity-0 scale-95"
+          x-transition:enter-end="transform opacity-100 scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="transform opacity-100 scale-100"
+          x-transition:leave-end="transform opacity-0 scale-95"
+          class="absolute right-0 z-30 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48"
+        >
+          <div class="px-2 py-2 text-primary bg-white rounded-md shadow">
+            <a
+              class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 hover:text-white focus:text-white hover:bg-primary/90 focus:bg-primary/70 focus:outline-none focus:shadow-outline"
+              href="/categories/프로덕트/"
+              >프로덕트</a
+            >
+            
+            
+          </div>
+        </div>
+      </div>
+      <a
+        class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white hover:bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+        href="https://ocena.app/contact"
+        target=”_blank”
+      >
+        문의하기
+      </a>
+      <a
+      class="px-4 py-2 mt-2 text-sm font-semibold rounded-lg md:mt-0 md:ml-4 hover:text-white focus:text-white bg-primary/80 focus:bg-primary/80 focus:outline-none focus:shadow-outline"
+      href="https://ocena.app/"
+      target=”_blank”
+      >오세나 사용하기</a
+      >
+
+      <button
+        id="theme-toggle"
+        type="button"
+        class="p-2 text-sm text-gray-500 rounded-lg md: dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 md:ml-2 max-w-5 xs:hidden"
+      >
+        <svg
+          id="theme-toggle-dark-icon"
+          class="hidden w-5 h-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+          ></path>
+        </svg>
+        <svg
+          id="theme-toggle-light-icon"
+          class="hidden w-5 h-5"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          aria-label="Dark or Light Mode"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</div>
+
+    
+<article>
+  <header class="flex flex-col items-center justify-start pt-16 mb-4">
+    <div class="text-white w-full max-w-4xl px-4 pb-2 ">
+      <div class="text-lg font-medium md:text-xl text-primary/90 dark:text-gray-400">프로덕트</div>
+    </div>
+      <h1 class="pb-4 max-w-4xl w-full px-4 text-3xl sm:text-4xl leading-normal sm:leading-snug font-bold text-gray-800 dark:text-white capitalize">
+        오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유
+      </h1>
+      <div class="flex text-gray-500 dark:text-white w-full max-w-4xl px-4 md:text-lg">
+        <div class="mb-1  ">이용우</div>
+        &nbsp;&nbsp; <span class="text-gray-300">|</span> &nbsp;&nbsp;
+        <time class="" datetime="2020-02-12">2023-02-14</time>
+      </div>
+  </header>
+  <div class="max-w-4xl mx-auto mt-8 mb-2">
+    <div class="px-6">
+      
+      
+      
+      
+      
+      
+      <img src="/../assets/images/featured/_hu789569702718c8c8c36144995b408bec_141223_3269e4cb03d2fde2c0e3905af7c99f31.webp" srcset=", /../assets/images/featured/_hu789569702718c8c8c36144995b408bec_141223_d73c5d6bd2cf18a5fec07e234d4ebe42.webp 400w, /../assets/images/featured/_hu789569702718c8c8c36144995b408bec_141223_3cc9316c16ac74aa80a115101f326fa1.webp 550w, /../assets/images/featured/_hu789569702718c8c8c36144995b408bec_141223_1852bbc9d3465117db88c3d51896bc5f.webp 768w, /../assets/images/featured/_hu789569702718c8c8c36144995b408bec_141223_3269e4cb03d2fde2c0e3905af7c99f31.webp 1100w"
+           class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+           width="100%" alt="" />
+      
+      
+    </div>
+  </div>
+  
+  
+  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto prose dark:prose-invert dark:text-white">
+    <h2 id="스마트-견적서-공유">스마트 견적서 공유</h2>
+<p>오세나 스마트 견적서는 온라인 웹사이트의 형태로 공유가 가능합니디. 완성된 스마트 견적서를 URL 링크나 카카오톡으로 간편하게 공유하세요.</p>
+<h2 id="공유할-견적서-선택">공유할 견적서 선택</h2>
+<p>완성된 스마트 견적서는 대시보드 &lsquo;내 견적서&rsquo; 페이지에 저장됩니다. &lsquo;내 견적서&rsquo; 페이지에서 공유하고자 하는 스마트 견적서를 클릭해주세요.</p>
+<p><img src="/Dashboard-filled.png" alt="대시보드"></p>
+<h2 id="공유-링크-활성화">공유 링크 활성화</h2>
+<p>공유할 견적서를 선택하면 &lsquo;온라인 공유&rsquo; 페이지가 열립니다. 페이지 우측 &lsquo;공유 링크 활성화&rsquo; 섹션에 있는 검정색 토글 버튼을 클릭하면 견적서의 온라인 공유 링크가 활성화 됩니다.</p>
+<p><img src="/Share-inactive.png" alt="온라인 공유 페이지 공유 링크 비활성화 상태"></p>
+<p>공유 링크를 활성화시키면 토글 버튼이 파란색으로 변하고 아래 스마트 견적서의 공유 링크가 생성됩니다. 검정색 복사 버튼을 눌러 링크를 공유하거나 카카오톡 공유하기 버튼을 눌러 스마트 견적서 페이지를 공유할 수 있습니다.</p>
+<p><img src="/Share-active.png" alt="온라인 공유 페이지 공유 링크 활성화 상태"></p>
+<h2 id="pdf-다운로드">PDF 다운로드</h2>
+<p>견적서의 온라인 페이지가 아닌 PDF 문서 형태로 견적서를 공유해야하는 경우 &lsquo;온라인 공유 페이지&rsquo;에서도 회색 다운로드 버튼을 클릭해 PDF 견적서 문서를 다운로드 할 수 있습니다.</p>
+<h2 id="스마트-견적서-사용하기">스마트 견적서 사용하기</h2>
+<p>오세나 스마트 견적서는 <a href="https://ocena.app/">오세나 웹사이트</a>에서 무료로 사용이 가능합니다.</p>
+<ul>
+<li><a href="https://ocena.app/">스마트 견적서 만들기</a></li>
+</ul>
+
+  </div>
+  <div class="max-w-2xl px-6 pt-6 pb-16 mx-auto ">
+    <div class="text-xl text-primary font-bold mb-4">Tags</div>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C/">사용가이드</a>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EC%98%A4%EC%84%B8%EB%82%98/">오세나</a>
+    
+        <a class="dark:text-white text-gray-800 bg-gray-200 dark:bg-gray-600 p-1 px-2 rounded-lg" href="http://ocena-app.github.io/tags/%EA%B2%AC%EC%A0%81%EC%84%9C/">견적서</a>
+    
+  </div>
+</article>
+
+    
+
+<script src="/js/alpine.js" defer></script>
+
+<script src="/js/darkmode.js" defer></script>
+<footer class="bg-gray-900">
+  <div
+    class="max-w-md px-4 py-12 mx-auto overflow-hidden sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8"
+  >
+  <a
+        href="/"
+        class="flex justify-center mb-6 text-gray-100 transition duration-1000 ease-in-out group"
+      >
+        <img
+          src="/ocena-logo-white.png"
+          class="transition-opacity h-9 group-hover:opacity-50 group-focus:opacity-70"
+          alt="오세나 | ocena 팀 블로그 Logo"
+        />
+        <div
+          class="mt-1 ml-3 text-xl font-base tracking-tight text-gray-100 transition-colors group-hover:text-gray-400/60"
+        >
+          
+          Blog
+        </div>
+      </a>
+    <nav class="flex flex-wrap justify-center " aria-label="Footer">
+      <div class="py-2 sm:p-2">
+        <a
+          href="https://ocena.app/"
+          target=”_blank”
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >오세나</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a
+          href="/posts/"
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >아티클</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a
+          href="https://ocena.app/contact/"
+          target=”_blank”
+          class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >문의하기</a
+        >
+      </div>
+
+      <div class="py-2 sm:p-2">
+        <a href="https://www.linkedin.com/company/ocena-app" target=”_blank” class="text-base text-gray-200 font-medium px-4 py-3 hover:bg-primary/30 rounded-2xl"
+          >링크드인</a
+        >
+      </div>
+    </nav>
+    
+    <p class="mt-8 text-sm text-center text-gray-400">
+      &copy; 2023 오세나 | ocena 팀 블로그. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+</body>
+
+</html>
