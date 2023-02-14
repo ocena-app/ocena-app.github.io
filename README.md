@@ -1,4 +1,2 @@
 # ocena-app.github.io
-wioefjeoi
-weiojfw
-toto
+ocena blog
