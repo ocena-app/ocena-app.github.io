@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>오세나 | ocena 팀 블로그</title>
-    <link>http://ocena-app.github.io/</link>
+    <link>http://blog.ocena.app/</link>
     <description>Recent content on 오세나 | ocena 팀 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 14 Feb 2023 11:34:58 +0900</lastBuildDate><atom:link href="http://ocena-app.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Feb 2023 11:34:58 +0900</lastBuildDate><atom:link href="http://blog.ocena.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>오세나 스마트 견적서 사용 가이드 | 스마트 견적서 공유</title>
-      <link>http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EA%B3%B5%EC%9C%A0/</link>
+      <link>http://blog.ocena.app/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EA%B3%B5%EC%9C%A0/</link>
       <pubDate>Tue, 14 Feb 2023 11:34:58 +0900</pubDate>
       
-      <guid>http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EA%B3%B5%EC%9C%A0/</guid>
+      <guid>http://blog.ocena.app/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EA%B3%B5%EC%9C%A0/</guid>
       <description>오세나 스마트 견적서를 공유하는 방법에 대해 알아보세요.</description>
     </item>
     
     <item>
       <title>오세나 스마트 견적서 사용 가이드 | 스마트 견적서와 PDF 견적서 만드는 방법</title>
-      <link>http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EC%A0%9C%EC%9E%91/</link>
+      <link>http://blog.ocena.app/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EC%A0%9C%EC%9E%91/</link>
       <pubDate>Mon, 13 Feb 2023 21:25:00 +0900</pubDate>
       
-      <guid>http://ocena-app.github.io/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EC%A0%9C%EC%9E%91/</guid>
+      <guid>http://blog.ocena.app/posts/%EC%82%AC%EC%9A%A9%EA%B0%80%EC%9D%B4%EB%93%9C-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-%EC%A0%9C%EC%9E%91/</guid>
       <description>오세나 스마트 견적서와 PDF 견적서를 만드는 방법, 견적서 편집 기능 사용에 대해 알아보세요.</description>
     </item>
     
     <item>
       <title>오세나 스마트 견적서 MVP 런칭</title>
-      <link>http://ocena-app.github.io/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</link>
+      <link>http://blog.ocena.app/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</link>
       <pubDate>Thu, 26 Jan 2023 11:18:55 +0900</pubDate>
       
-      <guid>http://ocena-app.github.io/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</guid>
+      <guid>http://blog.ocena.app/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</guid>
       <description>오세나 스마트 견적서의 MVP 버전이 출시되었습니다. 스마트 견적서는 2023년 상반기 동안 100% 무료로 제공됩니다.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://ocena-app.github.io/about/</link>
+      <link>http://blog.ocena.app/about/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
       
-      <guid>http://ocena-app.github.io/about/</guid>
+      <guid>http://blog.ocena.app/about/</guid>
       <description>h1 Heading :blush: h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading 안녕하세요 이건 테스트입니다
 Horizontal Rules Typographic replacements Enable typographer option to see result.
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
@@ -56,19 +56,19 @@ Blockquotes Blockquotes can also be nested&amp;hellip;</description>
     
     <item>
       <title>Contact</title>
-      <link>http://ocena-app.github.io/contact/</link>
+      <link>http://blog.ocena.app/contact/</link>
       <pubDate>Sat, 18 Dec 2021 03:10:36 +0000</pubDate>
       
-      <guid>http://ocena-app.github.io/contact/</guid>
+      <guid>http://blog.ocena.app/contact/</guid>
       <description> </description>
     </item>
     
     <item>
       <title>Prose</title>
-      <link>http://ocena-app.github.io/prose/</link>
+      <link>http://blog.ocena.app/prose/</link>
       <pubDate>Sat, 18 Dec 2021 11:10:36 +0800</pubDate>
       
-      <guid>http://ocena-app.github.io/prose/</guid>
+      <guid>http://blog.ocena.app/prose/</guid>
       <description>@tailwindcss/typography View on GitHub!
 Beautiful typographic defaults for HTML you don&amp;rsquo;t control.
 The official Tailwind CSS Typography plugin provides a set of prose classes you can use to add beautiful typographic defaults to any vanilla HTML you don’t control, like HTML rendered from Markdown, or pulled from a CMS.

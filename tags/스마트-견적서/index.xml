@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>스마트 견적서 on 오세나 | ocena 팀 블로그</title>
-    <link>http://ocena-app.github.io/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C/</link>
+    <link>http://blog.ocena.app/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C/</link>
     <description>Recent content in 스마트 견적서 on 오세나 | ocena 팀 블로그</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 26 Jan 2023 11:18:55 +0900</lastBuildDate><atom:link href="http://ocena-app.github.io/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Jan 2023 11:18:55 +0900</lastBuildDate><atom:link href="http://blog.ocena.app/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>오세나 스마트 견적서 MVP 런칭</title>
-      <link>http://ocena-app.github.io/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</link>
+      <link>http://blog.ocena.app/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</link>
       <pubDate>Thu, 26 Jan 2023 11:18:55 +0900</pubDate>
       
-      <guid>http://ocena-app.github.io/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</guid>
+      <guid>http://blog.ocena.app/posts/%EC%98%A4%EC%84%B8%EB%82%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EA%B2%AC%EC%A0%81%EC%84%9C-mvp-%EB%9F%B0%EC%B9%AD/</guid>
       <description>오세나 스마트 견적서의 MVP 버전이 출시되었습니다. 스마트 견적서는 2023년 상반기 동안 100% 무료로 제공됩니다.</description>
     </item>
     
